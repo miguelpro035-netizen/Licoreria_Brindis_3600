@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es" data-negocio="brindis-3600" data-tema="oscuro" data-tema-defecto="oscuro" data-edad="si">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Brindis 3600 — Licorería · Delivery. Catálogo en línea: Lo bueno se comparte.">
+  <meta name="theme-color" content="#071126">
+  <title>Brindis 3600 · Licorería · Delivery | La Paz</title>
+  <link rel="manifest" href="manifest.json"><link rel="icon" href="icons/icon-192.png"><link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>try{var t=JSON.parse(localStorage.getItem('brindis-3600:tema'));if(t)document.documentElement.dataset.tema=t}catch(e){}</script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/jquery-3.6.0.min.js" defer></script>
+  <script src="vendor/purify.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head><body class="pagina" data-hidratado="false">
+  <header class="encabezado">
+    <div class="encabezado__menu" id="contenedorMenu" data-hidratado="false"><button class="boton-icono boton-icono--estatico" id="btnMenu" type="button" aria-label="Menú (cargando)" aria-expanded="false" aria-controls="menu">☰</button></div>
+    <a class="marca" href="#inicio" aria-label="Brindis 3600 inicio"><img class="marca__logo" src="assets/images/logo.svg" width="44" height="44" alt=""><span class="marca__texto"><b class="marca__nombre" data-site="nombre">Brindis 3600</b><small class="marca__lema" data-site="lema">Licorería · Delivery</small></span></a>
+    <nav class="menu" id="menu" aria-label="Menú principal"><ul class="menu__lista"><li class="menu__item"><a class="menu__enlace" href="#categorias">Categorías</a></li><li class="menu__item"><a class="menu__enlace" href="#catalogo">Catálogo</a></li><li class="menu__item"><a class="menu__enlace" href="#delivery">Delivery</a></li><li class="menu__item"><a class="menu__enlace" href="#preguntas">Preguntas</a></li><li class="menu__item"><a class="menu__enlace" href="#contacto">Contacto</a></li></ul></nav>
+    <div class="encabezado__acciones"><span class="estado-red" id="estadoRed" role="status">🟢 En línea</span>
+      <button class="boton-icono" id="botonTema" type="button" aria-label="Cambiar entre modo claro y oscuro" aria-pressed="false">☀</button>
+      <button class="boton-icono abrir-carrito" type="button" aria-label="Abrir carrito">🛍<span class="insignia" id="contadorCarrito">0</span></button></div>
+  </header>
+  <main id="inicio">
+    <section class="contenedor portada"><div><p class="portada__sobretitulo">Bebidas frías · Tiendas · Delivery</p><h1 class="portada__titulo">Lo bueno <em>se comparte.</em></h1><p class="portada__texto">Cervezas, singani, destilados, vinos y packs para tu reunión. Pide por WhatsApp y recíbelo en tu puerta.</p>
+      <div class="portada__acciones"><a class="boton boton--primario" href="#catalogo">Explorar catálogo ↗</a><a class="boton boton--contorno" href="#delivery">Delivery</a></div></div>
+      <div class="portada__medio"><div class="collage"><img class="collage__item" src="assets/images/pace-a-pilsener.svg" width="400" height="500" alt="Cerveza" fetchpriority="high"><img class="collage__item" src="assets/images/casa-real-etiqueta-negra.svg" width="400" height="500" alt="Singani"><img class="collage__item" src="assets/images/red-label.svg" width="400" height="500" alt="Whisky"></div></div></section>
+    <div class="contenedor"><div class="fila-datos"><div class="dato"><span class="dato__numero">+30</span><span class="dato__texto">Productos</span></div><div class="dato"><span class="dato__numero">24/7</span><span class="dato__texto">Pedidos por WhatsApp</span></div><div class="dato"><span class="dato__numero">+18</span><span class="dato__texto">Venta responsable</span></div></div></div>
+    <section class="seccion" id="categorias"><div class="contenedor"><div class="seccion__encabezado"><p class="seccion__sobretitulo">Explora</p><h2 class="seccion__titulo">Compra por <em>categoría</em></h2></div>
+      <div class="categorias"><button class="categoria" data-ir-cat="Cervezas" type="button"><span class="categoria__numero">01</span><span><span class="categoria__nombre">Cervezas</span><span class="categoria__texto">Paceña, Huari, Taquiña, Ducal y Corona</span></span></button><button class="categoria" data-ir-cat="Singani" type="button"><span class="categoria__numero">02</span><span><span class="categoria__nombre">Singani</span><span class="categoria__texto">Casa Real, Los Parrales y más</span></span></button><button class="categoria" data-ir-cat="Destilados" type="button"><span class="categoria__numero">03</span><span><span class="categoria__nombre">Destilados</span><span class="categoria__texto">Whisky, vodka, ron, tequila, fernet</span></span></button><button class="categoria" data-ir-cat="Vinos" type="button"><span class="categoria__numero">04</span><span><span class="categoria__nombre">Vinos</span><span class="categoria__texto">Tintos, blancos y rosados de Tarija</span></span></button><button class="categoria" data-ir-cat="Sin alcohol" type="button"><span class="categoria__numero">05</span><span><span class="categoria__nombre">Sin alcohol</span><span class="categoria__texto">Gaseosas, agua y hielo</span></span></button><button class="categoria" data-ir-cat="Packs" type="button"><span class="categoria__numero">06</span><span><span class="categoria__nombre">Packs</span><span class="categoria__texto">Combos y cajas con ahorro</span></span></button></div></div></section>
+    <section class="seccion seccion--tinta"><div class="contenedor"><div class="seccion__encabezado"><p class="seccion__sobretitulo">Ofertas y packs</p><h2 class="seccion__titulo">Los más <em>pedidos</em></h2></div><div class="destacados" id="destacados"></div></div></section>
+    <section class="seccion" id="catalogo"><div class="contenedor">
+      <div class="seccion__encabezado"><p class="seccion__sobretitulo">Licorería</p><h2 class="seccion__titulo">Nuestro <em>catálogo</em></h2><p class="seccion__texto">Elige la presentación (botella, lata, caja) y añade al carrito.</p></div>
+      <div class="herramientas"><label class="buscador"><span aria-hidden="true">⌕</span><input class="buscador__campo" id="buscador" type="search" placeholder="Buscar en el catálogo..." aria-label="Buscar"></label>
+        <select class="selector" id="orden" aria-label="Ordenar"><option value="destacados">Destacados</option><option value="menor">Precio: menor a mayor</option><option value="mayor">Precio: mayor a menor</option><option value="nombre">Nombre A–Z</option></select></div>
+      <nav class="pestanas" id="pestanas" aria-label="Categorías"></nav>
+      <p class="conteo" id="conteo" aria-live="polite">—</p><p class="conteo" id="estadoCatalogo" aria-live="polite">Preparando catálogo...</p>
+      <div class="grilla" id="grilla" aria-live="polite"></div>
+      <div class="vacio" id="vacio" hidden><h3>No encontramos resultados</h3><p>Prueba con otra búsqueda o limpia los filtros.</p><button class="boton boton--contorno" id="limpiar" type="button">Limpiar filtros</button></div>
+    </div></section>
+    <section class="seccion seccion--tinta" id="filtros"><div class="contenedor">
+      <div class="seccion__encabezado"><p class="seccion__sobretitulo">Filtro dinámico</p><h2 class="seccion__titulo">Encuentra la <em>opción ideal</em></h2></div>
+      <div class="capas"><label class="capas__etiqueta" for="capa1">Capa 1 · <span id="capa1Titulo">—</span></label><select class="selector" id="capa1"></select>
+        <label class="capas__etiqueta" for="capa2">Capa 2 · <span id="capa2Titulo">—</span></label><select class="selector" id="capa2" disabled><option value="">-- Primero elija la capa 1 --</option></select>
+        <div class="capas__resultado" id="resultadoCapas" aria-live="polite">Seleccione las capas anteriores...</div></div>
+    </div></section>
+    <section class="seccion" id="delivery"><div class="contenedor"><div class="banda"><div><h2 class="banda__titulo">¿Lo llevamos a tu domicilio?</h2><p class="seccion__texto">Prepara tu pedido y solicita entrega. El costo depende de la zona y se muestra en el carrito. Entrega solo a mayores de 18 años.</p></div><a class="boton boton--primario" href="#catalogo">Armar mi pedido ↗</a></div></div></section>
+    <section class="seccion seccion--tinta" id="preguntas"><div class="contenedor"><div class="seccion__encabezado"><p class="seccion__sobretitulo">Preguntas frecuentes</p><h2 class="seccion__titulo">Antes de <em>pedir</em></h2></div><div class="acordeon"><div class="acordeon__item"><button class="acordeon__boton" type="button" aria-expanded="false">¿Cómo hago mi pedido? <span>+</span></button><div class="acordeon__panel" style="display:none">Elige tus productos, revisa el carrito y pulsa «Finalizar pedido». Te llevará a WhatsApp con el detalle listo para enviar.</div></div><div class="acordeon__item"><button class="acordeon__boton" type="button" aria-expanded="false">¿Venden a menores de edad? <span>+</span></button><div class="acordeon__panel" style="display:none">No. La venta y entrega están prohibidas a menores de 18 años. Podemos pedir documento al entregar.</div></div><div class="acordeon__item"><button class="acordeon__boton" type="button" aria-expanded="false">¿Cuáles son las zonas de delivery? <span>+</span></button><div class="acordeon__panel" style="display:none">Se configuran en data/site.json (nombre y costo por zona). Defínelas con el negocio.</div></div><div class="acordeon__item"><button class="acordeon__boton" type="button" aria-expanded="false">¿Hacen pedidos por mayor para eventos? <span>+</span></button><div class="acordeon__panel" style="display:none">Sí: arma tu lista y escríbenos por WhatsApp para cotizar cajas y cantidades.</div></div></div><p class="nota-legal">Beber en exceso es dañino para la salud. Prohibida la venta a menores de 18 años. Consume con responsabilidad.</p></div></section>
+    <section class="seccion" id="contacto"><div class="contenedor rejilla">
+      <div><div class="seccion__encabezado"><p class="seccion__sobretitulo">Hablemos</p><h2 class="seccion__titulo">Estamos para <em>ayudarte</em></h2><p class="seccion__texto">Escríbenos tu consulta. Si el negocio ya configuró su WhatsApp, se abrirá el chat con tu mensaje.</p></div>
+        <h3 class="tarjeta-info__titulo">Horarios</h3><ul class="horario" id="listaHorario"></ul><p class="seccion__texto" data-site="direccion"></p><a class="boton boton--contorno" id="enlaceWhatsapp" href="#contacto">Escribir por WhatsApp</a></div>
+      <form class="formulario" id="formContacto" novalidate>
+        <label class="campo">Nombre completo<input class="campo__entrada" id="cNombre" autocomplete="name"><small class="campo__error" id="errNombre" style="display:none">Ingresa al menos 2 caracteres.</small></label>
+        <label class="campo">Correo electrónico<input class="campo__entrada" id="cCorreo" type="email" autocomplete="email"><small class="campo__error" id="errCorreo" style="display:none">Escribe un correo válido.</small></label>
+        <label class="campo">Tu mensaje<textarea class="campo__entrada" id="cMensaje" rows="4"></textarea><small class="campo__error" id="errMensaje" style="display:none">Escribe un mensaje de al menos 8 caracteres.</small></label>
+        <button class="boton boton--primario" type="submit">Enviar consulta ↗</button>
+        <div class="alerta-ok" id="alertaOk" role="status" style="display:none">✅ ¡Gracias! Tu consulta quedó registrada en este dispositivo.</div>
+      </form></div></section>
+  </main>
+  <footer class="pie"><div class="contenedor"><div class="pie__rejilla">
+    <div><a class="marca" href="#inicio"><img class="marca__logo" src="assets/images/logo.svg" width="44" height="44" alt=""><span class="marca__texto"><b class="marca__nombre" data-site="nombre">Brindis 3600</b><small class="marca__lema" data-site="eslogan">Lo bueno se comparte</small></span></a></div>
+    <div><h3 class="pie__titulo">Conócenos</h3><a class="pie__enlace" href="#catalogo">Catálogo</a><a class="pie__enlace" href="#contacto">Contacto</a></div>
+    <div><h3 class="pie__titulo">Redes sociales</h3><div id="listaRedes"></div></div></div>
+    <div class="pie__legal"><span>© <span id="anio">2026</span> Brindis 3600</span><span>Proyecto académico · Diseño Web II · UPDS La Paz</span><span>Beber con moderación · +18 · Marcas de sus propietarios · Precios de ejemplo</span></div></div></footer>
+  <button class="barra-carrito abrir-carrito" type="button"><span class="barra-carrito__cantidad" id="barraCantidad">0</span><span class="barra-carrito__texto">Ver carrito</span><strong id="barraTotal">—</strong></button>
+  <button class="subir" id="subir" type="button" aria-label="Volver arriba">↑</button>
+  <div class="avisos" id="avisos" aria-live="polite" aria-atomic="true"></div>
+  <div class="fondo-modal" id="fondoModal" hidden></div>
+  <aside class="carrito" id="carrito" aria-label="Carrito de compras">
+    <div class="carrito__cabecera"><h2 class="modal__titulo">Tu carrito <small id="carritoConteo">(0)</small></h2><button class="boton-icono" data-cerrar type="button" aria-label="Cerrar carrito">×</button></div>
+    <div class="carrito__lista" id="listaCarrito"></div>
+    <div class="carrito__pie">
+      <label class="campo">Entrega<select class="campo__entrada" id="entregaCarrito"></select></label>
+      <dl class="desglose"><div class="desglose__fila"><dt>Subtotal</dt><dd id="subtotal">—</dd></div><div class="desglose__fila"><dt>Entrega</dt><dd id="costoEntrega">—</dd></div><div class="desglose__fila desglose__fila--total"><dt>Total</dt><dd id="total">—</dd></div></dl>
+      <button class="boton boton--primario boton--lleno" id="btnPedido" type="button">Finalizar pedido ↗</button>
+      <button class="boton boton--contorno boton--lleno" data-cerrar type="button">← Seguir comprando</button>
+    </div>
+  </aside>
+  <section class="modal modal--ancho" id="modalProducto" role="dialog" aria-modal="true" aria-label="Detalle del producto" hidden><button class="modal__cerrar" data-cerrar type="button" aria-label="Cerrar">×</button><div class="detalle" id="contenidoProducto"></div></section>
+  <section class="modal" id="modalPedido" role="dialog" aria-modal="true" aria-labelledby="tituloPedido" hidden><button class="modal__cerrar" data-cerrar type="button" aria-label="Cerrar">×</button>
+    <h2 class="modal__titulo" id="tituloPedido">Confirmar pedido</h2><p class="modal__texto">Revisa los datos. Al confirmar se abre WhatsApp con tu pedido listo para enviar.</p>
+    <ul class="confirmacion"><li class="confirmacion__fila"><span>Resumen</span><b id="pedidoResumen">—</b></li><li class="confirmacion__fila"><span>Monto a cancelar</span><b id="pedidoTotal">—</b></li></ul>
+    <form class="formulario" id="formPedido" novalidate>
+      <label class="campo">Nombre completo<input class="campo__entrada" id="pedidoNombre" required minlength="2" autocomplete="name"></label>
+      <label class="campo">Teléfono / WhatsApp<input class="campo__entrada" id="pedidoTelefono" required inputmode="tel" pattern="[0-9 +\(\)\-]{7,}" autocomplete="tel"></label>
+      <label class="campo" id="pedidoDireccionCaja">Dirección o referencia de entrega<input class="campo__entrada" id="pedidoDireccion" autocomplete="street-address"></label>
+      <label class="campo">Nota adicional<textarea class="campo__entrada" id="pedidoNota" rows="2"></textarea></label>
+      <div class="modal__acciones"><button class="boton boton--contorno" type="button" data-cerrar>Cancelar</button><button class="boton boton--primario" type="submit">Enviar pedido</button></div>
+    </form></section>
+  <section class="modal modal--edad" id="modalEdad" role="dialog" aria-modal="true" aria-labelledby="tituloEdad" hidden><h2 class="modal__titulo" id="tituloEdad">¿Eres mayor de 18 años?</h2><p class="modal__texto">Este sitio promociona bebidas alcohólicas y solo está dirigido a mayores de edad.</p>
+    <div class="modal__acciones" style="justify-content:center"><button class="boton boton--primario" id="edadSi" type="button">Sí, soy mayor</button><button class="boton boton--contorno" id="edadNo" type="button">No</button></div></section>
+</body></html>

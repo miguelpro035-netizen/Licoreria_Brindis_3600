@@ -1,0 +1,55 @@
+{
+ "nombre": "Brindis 3600",
+ "lema": "Licorería · Delivery",
+ "eslogan": "Lo bueno se comparte",
+ "moneda": "Bs",
+ "whatsapp": "",
+ "direccion": "La Paz, Bolivia — agrega aquí la dirección exacta del local.",
+ "horario": [
+  [
+   "Lunes a jueves",
+   "10:00 – 23:00"
+  ],
+  [
+   "Viernes y sábado",
+   "10:00 – 01:00"
+  ],
+  [
+   "Domingos",
+   "11:00 – 22:00"
+  ]
+ ],
+ "redes": {
+  "instagram": "",
+  "facebook": "",
+  "tiktok": ""
+ },
+ "entregas": [
+  {
+   "id": "retiro",
+   "nombre": "Retiro en tienda",
+   "costo": 0
+  },
+  {
+   "id": "centro",
+   "nombre": "Delivery zona central",
+   "costo": 10
+  },
+  {
+   "id": "otras",
+   "nombre": "Delivery otras zonas",
+   "costo": 20
+  }
+ ],
+ "filtros": {
+  "capa1": {
+   "campo": "tipo",
+   "titulo": "Tipo de bebida"
+  },
+  "capa2": {
+   "campo": "categoria",
+   "titulo": "Categoría"
+  }
+ },
+ "_nota": "Datos de ejemplo: validar con el cliente. whatsapp: solo dígitos con código de país (ej. 59171234567)."
+}

@@ -1,0 +1,513 @@
+[
+ {
+  "id": 1,
+  "nombre": "Paceña Pilsener",
+  "categoria": "Cervezas",
+  "tipo": "Con alcohol",
+  "precio": 16,
+  "precioAnterior": 0,
+  "imagen": "assets/images/pace-a-pilsener.svg",
+  "insignia": "CLÁSICA",
+  "resumen": "Cerveza clásica de La Paz.",
+  "descripcion": "La cervecería clásica paceña. <b>Servir bien fría</b>.",
+  "destacado": true,
+  "stock": 40,
+  "etiquetas": [],
+  "variantes": [
+   {
+    "nombre": "Botella 620 ml",
+    "precio": 16
+   },
+   {
+    "nombre": "Lata 473 ml",
+    "precio": 11
+   },
+   {
+    "nombre": "Caja x12 botellas",
+    "precio": 175
+   }
+  ],
+  "atributos": {
+   "Tipo": "Pilsener",
+   "Grado": "~4,5% vol."
+  }
+ },
+ {
+  "id": 2,
+  "nombre": "Huari Pilsener",
+  "categoria": "Cervezas",
+  "tipo": "Con alcohol",
+  "precio": 15,
+  "precioAnterior": 0,
+  "imagen": "assets/images/huari-pilsener.svg",
+  "insignia": "",
+  "resumen": "Pilsener ligera y refrescante.",
+  "descripcion": "Pilsener ligera y refrescante.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": [],
+  "variantes": [
+   {
+    "nombre": "Botella 620 ml",
+    "precio": 15
+   },
+   {
+    "nombre": "Lata 473 ml",
+    "precio": 10
+   },
+   {
+    "nombre": "Caja x12 botellas",
+    "precio": 165
+   }
+  ],
+  "atributos": {
+   "Tipo": "Pilsener"
+  }
+ },
+ {
+  "id": 3,
+  "nombre": "Huari Bock",
+  "categoria": "Cervezas",
+  "tipo": "Con alcohol",
+  "precio": 18,
+  "precioAnterior": 0,
+  "imagen": "assets/images/huari-bock.svg",
+  "insignia": "",
+  "resumen": "Estilo oscuro, notas a malta.",
+  "descripcion": "Estilo oscuro, notas a malta.",
+  "destacado": true,
+  "stock": 40,
+  "etiquetas": [],
+  "atributos": {
+   "Tipo": "Bock"
+  }
+ },
+ {
+  "id": 4,
+  "nombre": "Taquiña",
+  "categoria": "Cervezas",
+  "tipo": "Con alcohol",
+  "precio": 15,
+  "precioAnterior": 0,
+  "imagen": "assets/images/taqui-a.svg",
+  "insignia": "",
+  "resumen": "Cerveza de tradición cochabambina.",
+  "descripcion": "Cerveza de tradición cochabambina.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": [],
+  "variantes": [
+   {
+    "nombre": "Botella 620 ml",
+    "precio": 15
+   },
+   {
+    "nombre": "Lata 473 ml",
+    "precio": 10
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "nombre": "Ducal",
+  "categoria": "Cervezas",
+  "tipo": "Con alcohol",
+  "precio": 14,
+  "precioAnterior": 0,
+  "imagen": "assets/images/ducal.svg",
+  "insignia": "",
+  "resumen": "Suave y de fácil trago.",
+  "descripcion": "Suave y de fácil trago.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": [],
+  "variantes": [
+   {
+    "nombre": "Botella 620 ml",
+    "precio": 14
+   },
+   {
+    "nombre": "Caja x12 botellas",
+    "precio": 155
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "nombre": "Corona Extra",
+  "categoria": "Cervezas",
+  "tipo": "Con alcohol",
+  "precio": 16,
+  "precioAnterior": 0,
+  "imagen": "assets/images/corona-extra.svg",
+  "insignia": "IMPORTADA",
+  "resumen": "Lager clara con rodaja de limón.",
+  "descripcion": "Lager clara con rodaja de limón.",
+  "destacado": false,
+  "stock": 60,
+  "etiquetas": []
+ },
+ {
+  "id": 7,
+  "nombre": "Paceña Lata Pack x6",
+  "categoria": "Cervezas",
+  "tipo": "Con alcohol",
+  "precio": 62,
+  "precioAnterior": 66,
+  "imagen": "assets/images/pace-a-lata-pack-x6.svg",
+  "insignia": "PACK",
+  "resumen": "Seis latas listas para compartir.",
+  "descripcion": "Seis latas listas para compartir.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 8,
+  "nombre": "Casa Real Etiqueta Negra",
+  "categoria": "Singani",
+  "tipo": "Con alcohol",
+  "precio": 125,
+  "precioAnterior": 0,
+  "imagen": "assets/images/casa-real-etiqueta-negra.svg",
+  "insignia": "BOLIVIANO",
+  "resumen": "Singani de altura, destilado de uva moscatel.",
+  "descripcion": "Destilado boliviano de uva moscatel de Alejandría. <b>Ideal para Chuflay</b>.",
+  "destacado": true,
+  "stock": 40,
+  "etiquetas": [],
+  "variantes": [
+   {
+    "nombre": "Botella 750 ml",
+    "precio": 125
+   },
+   {
+    "nombre": "Botella 375 ml",
+    "precio": 70
+   }
+  ],
+  "atributos": {
+   "Origen": "Tarija",
+   "Tipo": "Singani"
+  }
+ },
+ {
+  "id": 9,
+  "nombre": "Los Parrales",
+  "categoria": "Singani",
+  "tipo": "Con alcohol",
+  "precio": 95,
+  "precioAnterior": 0,
+  "imagen": "assets/images/los-parrales.svg",
+  "insignia": "",
+  "resumen": "Singani tradicional para chuflay.",
+  "descripcion": "Singani tradicional para chuflay.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": [],
+  "variantes": [
+   {
+    "nombre": "Botella 750 ml",
+    "precio": 95
+   },
+   {
+    "nombre": "Botella 375 ml",
+    "precio": 55
+   }
+  ]
+ },
+ {
+  "id": 10,
+  "nombre": "Singani Rujero",
+  "categoria": "Singani",
+  "tipo": "Con alcohol",
+  "precio": 80,
+  "precioAnterior": 0,
+  "imagen": "assets/images/singani-rujero.svg",
+  "insignia": "",
+  "resumen": "Singani joven, directo y aromático.",
+  "descripcion": "Singani joven, directo y aromático.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 11,
+  "nombre": "Red Label",
+  "categoria": "Destilados",
+  "tipo": "Con alcohol",
+  "precio": 165,
+  "precioAnterior": 180,
+  "imagen": "assets/images/red-label.svg",
+  "insignia": "OFERTA",
+  "resumen": "Whisky escocés mezclado.",
+  "descripcion": "Whisky escocés mezclado.",
+  "destacado": true,
+  "stock": 40,
+  "etiquetas": [],
+  "variantes": [
+   {
+    "nombre": "Botella 750 ml",
+    "precio": 165
+   },
+   {
+    "nombre": "Botella 1 L",
+    "precio": 215
+   }
+  ]
+ },
+ {
+  "id": 12,
+  "nombre": "Black Label",
+  "categoria": "Destilados",
+  "tipo": "Con alcohol",
+  "precio": 290,
+  "precioAnterior": 0,
+  "imagen": "assets/images/black-label.svg",
+  "insignia": "PREMIUM",
+  "resumen": "Whisky escocés de 12 años.",
+  "descripcion": "Whisky escocés de 12 años.",
+  "destacado": true,
+  "stock": 40,
+  "etiquetas": [],
+  "variantes": [
+   {
+    "nombre": "Botella 750 ml",
+    "precio": 290
+   },
+   {
+    "nombre": "Botella 1 L",
+    "precio": 360
+   }
+  ]
+ },
+ {
+  "id": 13,
+  "nombre": "Old Parr 12",
+  "categoria": "Destilados",
+  "tipo": "Con alcohol",
+  "precio": 310,
+  "precioAnterior": 0,
+  "imagen": "assets/images/old-parr-12.svg",
+  "insignia": "",
+  "resumen": "Whisky suave de 12 años.",
+  "descripcion": "Whisky suave de 12 años.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 14,
+  "nombre": "Vodka Absolut",
+  "categoria": "Destilados",
+  "tipo": "Con alcohol",
+  "precio": 140,
+  "precioAnterior": 0,
+  "imagen": "assets/images/vodka-absolut.svg",
+  "insignia": "",
+  "resumen": "Vodka sueco, cristalino.",
+  "descripcion": "Vodka sueco, cristalino.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 15,
+  "nombre": "Ron Añejo",
+  "categoria": "Destilados",
+  "tipo": "Con alcohol",
+  "precio": 120,
+  "precioAnterior": 0,
+  "imagen": "assets/images/ron-a-ejo.svg",
+  "insignia": "",
+  "resumen": "Ron añejo de caña, suave y dulce.",
+  "descripcion": "Ron añejo de caña, suave y dulce.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 16,
+  "nombre": "Tequila Reposado",
+  "categoria": "Destilados",
+  "tipo": "Con alcohol",
+  "precio": 185,
+  "precioAnterior": 0,
+  "imagen": "assets/images/tequila-reposado.svg",
+  "insignia": "",
+  "resumen": "Tequila reposado para tragos y shots.",
+  "descripcion": "Tequila reposado para tragos y shots.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 17,
+  "nombre": "Fernet",
+  "categoria": "Destilados",
+  "tipo": "Con alcohol",
+  "precio": 95,
+  "precioAnterior": 0,
+  "imagen": "assets/images/fernet.svg",
+  "insignia": "",
+  "resumen": "Amaro clásico para mezclar con cola.",
+  "descripcion": "Amaro clásico para mezclar con cola.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 18,
+  "nombre": "Vino Tinto Reserva Tarija",
+  "categoria": "Vinos",
+  "tipo": "Con alcohol",
+  "precio": 89,
+  "precioAnterior": 0,
+  "imagen": "assets/images/vino-tinto-reserva-tarija.svg",
+  "insignia": "",
+  "resumen": "Tinto de altura con cuerpo medio.",
+  "descripcion": "Tinto de altura con cuerpo medio.",
+  "destacado": true,
+  "stock": 40,
+  "etiquetas": [],
+  "atributos": {
+   "Origen": "Tarija",
+   "Tipo": "Tinto"
+  }
+ },
+ {
+  "id": 19,
+  "nombre": "Vino Blanco Torrontés",
+  "categoria": "Vinos",
+  "tipo": "Con alcohol",
+  "precio": 79,
+  "precioAnterior": 0,
+  "imagen": "assets/images/vino-blanco-torront-s.svg",
+  "insignia": "",
+  "resumen": "Blanco aromático y fresco.",
+  "descripcion": "Blanco aromático y fresco.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 20,
+  "nombre": "Vino Rosado Tarija",
+  "categoria": "Vinos",
+  "tipo": "Con alcohol",
+  "precio": 75,
+  "precioAnterior": 0,
+  "imagen": "assets/images/vino-rosado-tarija.svg",
+  "insignia": "",
+  "resumen": "Rosado ligero para el verano.",
+  "descripcion": "Rosado ligero para el verano.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 21,
+  "nombre": "Gaseosa Cola 2 L",
+  "categoria": "Sin alcohol",
+  "tipo": "Sin alcohol",
+  "precio": 16,
+  "precioAnterior": 0,
+  "imagen": "assets/images/gaseosa-cola-2-l.svg",
+  "insignia": "",
+  "resumen": "Para mezclar o acompañar.",
+  "descripcion": "Para mezclar o acompañar.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 22,
+  "nombre": "Gaseosa Limón 2 L",
+  "categoria": "Sin alcohol",
+  "tipo": "Sin alcohol",
+  "precio": 15,
+  "precioAnterior": 0,
+  "imagen": "assets/images/gaseosa-lim-n-2-l.svg",
+  "insignia": "",
+  "resumen": "Ideal para chuflay y tragos largos.",
+  "descripcion": "Ideal para chuflay y tragos largos.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 23,
+  "nombre": "Agua con Gas 600 ml",
+  "categoria": "Sin alcohol",
+  "tipo": "Sin alcohol",
+  "precio": 8,
+  "precioAnterior": 0,
+  "imagen": "assets/images/agua-con-gas-600-ml.svg",
+  "insignia": "",
+  "resumen": "Burbujeante y refrescante.",
+  "descripcion": "Burbujeante y refrescante.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 24,
+  "nombre": "Hielo en Bolsa 5 kg",
+  "categoria": "Sin alcohol",
+  "tipo": "Sin alcohol",
+  "precio": 18,
+  "precioAnterior": 0,
+  "imagen": "assets/images/hielo-en-bolsa-5-kg.svg",
+  "insignia": "",
+  "resumen": "Hielo en cubos para tu reunión.",
+  "descripcion": "Hielo en cubos para tu reunión.",
+  "destacado": false,
+  "stock": 80,
+  "etiquetas": []
+ },
+ {
+  "id": 25,
+  "nombre": "Combo Fiesta",
+  "categoria": "Packs",
+  "tipo": "Con alcohol",
+  "precio": 185,
+  "precioAnterior": 205,
+  "imagen": "assets/images/combo-fiesta.svg",
+  "insignia": "AHORRA",
+  "resumen": "Singani + 2 gaseosas + hielo.",
+  "descripcion": "Singani Rujero + 2 gaseosas de limón + hielo 5 kg. <b>Todo para el chuflay</b>.",
+  "destacado": true,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 26,
+  "nombre": "Caja Paceña x12",
+  "categoria": "Packs",
+  "tipo": "Con alcohol",
+  "precio": 175,
+  "precioAnterior": 0,
+  "imagen": "assets/images/caja-pace-a-x12.svg",
+  "insignia": "CAJA",
+  "resumen": "Caja de 12 botellas de 620 ml.",
+  "descripcion": "Caja de 12 botellas de 620 ml.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ },
+ {
+  "id": 27,
+  "nombre": "Pack Brindis Whisky",
+  "categoria": "Packs",
+  "tipo": "Con alcohol",
+  "precio": 220,
+  "precioAnterior": 240,
+  "imagen": "assets/images/pack-brindis-whisky.svg",
+  "insignia": "",
+  "resumen": "Red Label + gaseosa + hielo.",
+  "descripcion": "Red Label + gaseosa + hielo.",
+  "destacado": false,
+  "stock": 40,
+  "etiquetas": []
+ }
+]
